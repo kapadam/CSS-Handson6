@@ -1,0 +1,362 @@
+body{
+    background-image: url("shara desert.jpg");
+    width:100%;
+}
+@media (min-width:1100px) and (max-width:1600px) {
+    .logo{
+        width:80px;
+        height:70px;
+        margin: 20px;
+    }
+    .icon{
+        margin-left: 50px;
+        position: absolute;
+        top:30px;
+        right:50px;
+    }
+    
+    .title1{
+        text-decoration: none;
+        color: white;
+        padding:20px;
+        position: absolute;
+        top:20px;
+        right:150px;
+    }
+    .title2{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        position: absolute;
+        top:20px;
+    right:250px;
+    }
+    .title3{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        position: absolute;
+        top:20px;
+        right:370px;
+
+    }
+   .main-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 50px;
+   }
+   .sahara-content{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color:white;
+    padding: 50px;
+   }
+   .sahara{
+    font-size: 6em;
+    margin-bottom: 0;
+   }
+   .button{
+    width:250px;
+    border: none;
+    height:50px;
+    border-radius: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+   }
+   .grid-container{
+    grid-column: 2/3;
+    grid-row: 1/2;
+   }
+   .grid-content{
+    display: grid;
+    grid-template-columns: repeat(2,230px);
+    grid-template-rows: repeat(2,250px);
+    color:white;
+    column-gap: 70px;
+    row-gap: 40px;
+    padding-right: 50px;
+    
+   
+   }
+   .grid1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("pic-1.png");
+    background-size: cover;
+    border-radius: 20px;
+    
+   }
+   .grid1:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+   }
+   h3{
+    margin-left: 10px;
+   }
+   .para{
+    margin-left: 10px;
+   }
+   .grid2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("pic-2.png");
+    background-size: cover;
+    border-radius: 20px;
+   }
+   .grid2:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+   }
+   .grid3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("pic-3.png");
+    background-size: cover;
+    border-radius: 20px;
+   }
+   .grid3:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+   }
+   .grid4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("pic-4.png");
+    background-size: cover;
+    border-radius: 20px;
+   }
+   .grid4:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+   }
+}
+@media (min-width:600px) and (max-width:1099px) {
+    .logo{
+        width:80px;
+        height:70px;
+        margin: 20px;
+    }
+    .icon{
+        margin-left: 50px;
+        position: absolute;
+        top:30px;
+        right:50px;
+    }
+    
+    .title1{
+        text-decoration: none;
+        color: white;
+        padding:20px;
+        position: absolute;
+        top:20px;
+        right:150px;
+    }
+    .title2{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        position: absolute;
+        top:20px;
+    right:250px;
+    }
+    .title3{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        position: absolute;
+        top:20px;
+        right:370px;
+
+    }
+    .sahara-content{
+        color:white;
+        padding: 50px;
+        margin-top: 0;
+    }
+    .button{
+        width:250px;
+        border: none;
+        height:50px;
+        border-radius: 40px;
+        margin-top: 40px;
+        font-weight: bold;
+         
+        margin-bottom: 0; 
+    }
+    .grid-content{
+        display: grid;
+        grid-template-columns: 450px;
+        grid-template-rows: repeat(4,250px);
+        color: white;
+        justify-content: center;
+        row-gap: 80px;
+    }
+    h3{
+        margin-left: 20px;
+       }
+       .para{
+        margin-left: 20px;
+       }
+    .grid1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url("pic-1.png");
+        background-size: cover;
+        border-radius: 20px;
+
+    }
+    .grid1:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+    .grid2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url("pic-2.png");
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .grid2:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+    .grid3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-image: url("pic-3.png");
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .grid3:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+    .grid4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        background-image: url("pic-4.png");
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .grid4:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+
+}
+@media (min-width:360px) and (max-width:599px) {
+    .logo{
+        width:80px;
+        height:70px;
+        margin: 20px;
+    }
+    .icon{
+        margin-left: 50px;
+        position: absolute;
+        top:30px;
+        right:50px;
+    }
+    .title1{
+        text-decoration: none;
+        color: white;
+        padding:20px;
+        position: absolute;
+        top:5px;
+        right:100px;
+    }
+    .title2{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        position: absolute;
+        top:35px;
+    right:100px;
+    }
+    .title3{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        position: absolute;
+        top:65px;
+        right:100px;
+
+    }
+    .sahara-content{
+        color:white;
+        padding: 50px;
+        margin-top: 0;
+    }
+    .button{
+        width:250px;
+        border: none;
+        height:50px;
+        border-radius: 40px;
+        margin-top: 40px;
+        font-weight: bold;
+         
+        margin-bottom: 0; 
+    }
+    .grid-content{
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(4,250px);
+        color: white;
+        justify-content: center;
+        row-gap: 80px;
+    }
+    h3{
+        margin-left: 20px;
+       }
+       .para{
+        margin-left: 20px;
+       }
+    .grid1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url("pic-1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+
+    }
+    .grid1:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+    .grid2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url("pic-2.png");
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .grid2:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+    .grid3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-image: url("pic-3.png");
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .grid3:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+    .grid4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        background-image: url("pic-4.png");
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .grid4:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+       }
+}
